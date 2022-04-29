@@ -1,0 +1,18 @@
+.Products_container {
+  margin: 0 auto;
+  .add_view_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .todo_colors{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-flow: wrap;
+    color: grey;
+    font-weight: 500;
+    width: 45%;
+  }
+}

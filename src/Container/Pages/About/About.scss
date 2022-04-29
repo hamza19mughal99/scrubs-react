@@ -1,0 +1,86 @@
+.about_section{
+
+  .about_text_section{
+    padding: 45px;
+
+    h4{
+      font-size: 25px;
+      font-weight: bold;
+    }
+    h5{
+      font-size: 16px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+
+  .about_img_section{
+    overflow: hidden;
+
+    img{
+     width: 100%;
+      height: 500px;
+    }
+  }
+
+  .about_med_scrub{
+    background: url('../../../assets/img/about_Section2.png');
+    background-size: cover ;
+    height: 400px;
+    margin-top: 30px;
+
+    .about_med_scrub_right{
+      padding: 70px 20px;
+    }
+  }
+
+  .wear_section{
+    margin-top: 30px;
+
+    .wear_text_section{
+      padding: 35px;
+    }
+    .wear_img_section{
+      img{
+        width: 102%;
+      }
+    }
+  }
+
+  .achievement_section{
+    background: url('../../../assets/img/about4.png');
+    background-size: cover;
+    background-position-x: right;
+    height: 100vh;
+    margin-top: 30px;
+
+    .achievement_text_section{
+      width: 39%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      padding: 0 30px;
+
+      p{
+        font-size: 15px;
+        font-weight: 500;
+      }
+      h5{
+        margin-top: 15px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .about_med_scrub{
+    display: none;
+  }
+  .achievement_section{
+    display: none;
+  }
+
+}

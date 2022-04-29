@@ -1,0 +1,48 @@
+@import "../../color";
+
+.offer_section{
+  background-color: #F5F8FA;
+  padding: 30px 0;
+
+  h2{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .freeShip{
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+      width: 100px;
+    }
+
+    h3{
+      font-weight: 700;
+    }
+
+    Button{
+      background: transparent;
+      color: $bgColor;
+      border: 1px solid $bgColor;
+      font-weight: 700;
+      padding: 0 30px;
+    }
+
+  }
+  .freeShip_inspired{
+    background-color: $bgColor;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

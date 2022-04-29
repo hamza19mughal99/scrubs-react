@@ -1,0 +1,61 @@
+.order_cards_container {
+  border: 1px solid rgb(226, 226, 226);
+  padding: 10px 25px;
+
+  .image_background_color {
+    background-color: rgb(230, 230, 230);
+    width: 100px;
+
+    img {
+      padding: 10px 10px;
+    }
+
+  }
+
+  .card_details{
+    span{
+        color: grey;
+        font-size: 13px;
+        font-family: Montserrat, serif;
+    }
+    b {
+      font-weight: bolder !important;
+      font-size: 13px;
+      margin: 0 5px;
+      font-family: Montserrat, serif;
+    }
+  }
+
+  .card_inner_text {
+    display: flex;
+    justify-content: space-between;
+
+
+    p {
+      font-weight: 600;
+      font-family: Montserrat, serif;
+    }
+
+    .dollar_sign {
+      font-family: Montserrat, serif;
+      font-weight: bold;
+      font-size: 12px;
+    }
+  }
+
+  h4 {
+    font-size: 24px;
+    font-family: serif;
+    font-weight: bold;
+  }
+}
+
+.delivery_container {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-weight: bold;
+  }
+
+}
